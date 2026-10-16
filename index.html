@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gửi Như - 20/10 Special</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nền sao lấp lánh thuần CSS -->
+    <div class="stars"></div>
+
+    <!-- MÀN HÌNH NHẬP MẬT KHẨU -->
+    <div id="password-overlay">
+        <div class="password-box">
+            <h2> Nhập mật khẩu để mở quà</h2>
+            <p>Gợi ý: Một ngày đặc biệt...</p>
+            <input type="password" id="password-input" placeholder="Nhập mật khẩu ở đây...">
+            <button id="submit-btn">Mở khóa </button>
+            <p id="error-msg"></p>
+        </div>
+    </div>
+
+    <!-- Khung bọc đĩa nhạc (Ban đầu ẩn/chờ mở khóa) -->
+    <div id="vinyl-wrapper">
+        <div class="vinyl-disk"></div>
+    </div>
+
+    <!-- Khung nội dung lời chúc -->
+    <div class="container">
+        <div class="text-box">
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <!-- Playlist 3 bài nhạc -->
+    <audio id="bg-music">
+        <source src="bai1.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
